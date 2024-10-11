@@ -4,17 +4,17 @@ from jmcomic.cl import JmcomicUI
 # 下方填入你要下载的本子的id，一行一个，每行的首尾可以有空白字符
 jm_albums = '''
 
-
+JM580667
 
 '''
 
 # 单独下载章节
-jm_photos = str_to_list ('''
-JM580667
+jm_photos = '''
 
 
 
-''')
+
+'''
 
 
 def env(name, default, trim=('[]', '""', "''")):
